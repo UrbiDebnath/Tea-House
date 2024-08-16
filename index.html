@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tea House</title>
     <!--Google font link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +11,8 @@
     <!--DaisyUI and Taliwind CSS-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!--Font awsome link-->
+    <script src="https://kit.fontawesome.com/2cb4ecd3c6.js" crossorigin="anonymous"></script>
     <!--Custom Link-->
     <script>
         tailwind.config = {
@@ -30,10 +32,38 @@
     </style>
 </head>
 <body class="font-style">
-    <header>
-
+  <main class="max-w-screen-xl mx-auto px-16 lg:px-28"></main>
+    <header class="lg:flex pt-10 mb-20">
+      <div class="hero">
+        <div class="hero-content flex-col lg:flex-row">
+          <div>
+            <h1 class="text-7xl font-extrabold">
+              It's good<br>
+              tea time at The<br> 
+              Tea House</h1>
+            <p class="py-6">
+              Tea and Botanical Solutions Supplier Give Optimum<br> Satisfaction To Your Taste Buds.
+            </p>
+            <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold">Explore More
+              <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i>
+            </button>
+          </div>
+          <div class="px-6">
+            <img
+            src="images/banner.png"
+            class="max-w-sm"/> 
+            <div class="-mt-24 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60">
+              <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+              <div>
+                <h3 class="text-3xl">5.00</h3>
+                <p>Trust Pilot Rating</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
-    <main>
+    
 
     </main>
     <footer>
