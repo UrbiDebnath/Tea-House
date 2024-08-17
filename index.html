@@ -35,11 +35,11 @@
 <main class="max-w-screen-xl mx-auto px-16 lg:px-28"></main>
   
     <!--Header Section-->
-      <header class="lg:flex pt-10 mb-20 mx-24">
-        <div class="hero">
-          <div class="hero-content flex-col lg:flex-row">
+      <header class="my-24 mx-24 ">
+        <div class="">
+          <div class="flex justify-between flex-col lg:flex-row">
             <div>
-              <h1 class="text-7xl font-extrabold">
+              <h1 class="text-4xl lg:text-7xl font-extrabold">
                 It's good<br>
                 tea time at The<br> 
                 Tea House</h1>
@@ -53,8 +53,8 @@
             <div class="px-6">
               <img
               src="images/banner.png"
-              class="max-w-sm"/> 
-              <div class="-mt-24 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60">
+              class=""/> 
+              <div class="-mt-10 lg:-mt-24 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-25 lg:w-60">
                 <i class="fa-solid fa-star text-3xl text-amber-400"></i>
                 <div>
                   <h3 class="text-3xl">5.00</h3>
@@ -148,7 +148,7 @@
         <!-- Text Section -->
         <div class="flex justify-center items-center">
           <div class="w-5/6">
-            <h1 class="text-5xl font-bold mb-5 mt-10">
+            <h1 class="text-5xl font-bold mb-5">
               Meet Our Super Clients
             </h1>
             <p class="mb-5">
@@ -214,9 +214,114 @@
         </div>
       </div>
     </section>
+    
+    <!--News and Event Section-->
+    <section class="mb-24 mx-24 ">
+      <h2 class="text-5xl font-extrabold  text-center">News & Event</h2>
+      <div class="mt-10 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <!--1st Card-->
+        <div class="card bg-white border-2 p-8">
+          <figure>
+            <img
+              src="images/news-1.png"
+              alt="Tea" />
+          </figure>
+          <div class="card-body">
+           
+            <h2 class="text-sm">August 05,2024</h2>
+            <h2 class="text-2xl font-bold">Collecting 8 points for discount</h2>
+            <p>There are many variations of passages of this tea available.</p>
+            <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 mt-5 rounded-lg text-white font-bold">Learn More</button>
+          </div>
+        </div>
+        <!--2nd Card-->
+        <div class="card bg-white border-2 p-8">
+          <figure>
+            <img
+              src="images/news-2.png"
+              alt="Tea" />
+          </figure>
+          <div class="card-body">
+           
+            <h2 class="text-sm">August 11,2024</h2>
+            <h2 class="text-2xl font-bold">Collecting 10 points for discount</h2>
+            <p>There are many variations of passages of this tea available.</p>
+            <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 mt-5 rounded-lg text-white font-bold">Learn More</button>
+          </div>
+        </div>
+        <!--3rd Card-->
+        <div class="card bg-white border-2 p-8">
+          <figure>
+            <img
+              src="images/news-3.png"
+              alt="Tea" />
+          </figure>
+          <div class="card-body">
+           
+            <h2 class="text-sm">August 17,2024</h2>
+            <h2 class="text-2xl font-bold">Collecting 4 points for discount</h2>
+            <p>There are many variations of passages of this teaavailable.</p>
+            <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 mt-5 rounded-lg text-white font-bold">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
 </main>
-    <footer>
-
-    </footer>
+<!--Footer Section-->
+<footer class="bg-base-200 text-base-content p-10">
+  <div class="flex justify-between my-10">
+    <img src="images/cup.png" alt="">
+    <p class="flex items-center gap-5">
+      <span>Ready to get started?</span>
+      <button class="my-5 bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 mt-5 rounded-lg text-white font-bold">Get Started</button>
+    </p>
+  </div>
+  <div class="footer">
+    <div>
+      <h6 class="footer-title">Quick Links</h6>
+      <a class="link link-hover">Home</a>
+      <a class="link link-hover">About Us</a>
+      <a class="link link-hover">Insurance</a>
+      <a class="link link-hover">Privacy Policy</a>
+    </div>
+    <div>
+      <h6 class="footer-title">Our Service</h6>
+      <a class="link link-hover">Life Insurance</a>
+      <a class="link link-hover">Car Insurance</a>
+      <a class="link link-hover">Health Insurance</a>
+      <a class="link link-hover">House Insurance</a>
+    </div>
+    <div>
+      <h6 class="footer-title">Help</h6>
+      <a class="link link-hover">FAQs</a>
+      <a class="link link-hover">Contact Us</a>
+    </div>
+    <div>
+      <h3 class="font-semibold text-lg mb-3">
+        Subscribe to our newsletter
+      </h3>
+      <div class="flex flex-col space-y-2">
+        <div>
+          <input
+            placeholder="Email Address"
+            type="text"
+            class="bg-transparent border-b-2 border-black w-4/6"
+          />
+          <i
+            class="fa-solid fa-chevron-right w-7 h-7 bg-orange-600 inline-flex rounded-full text-white justify-center items-center"
+          ></i>
+          <div class="flex justify-between w-2/5 mb-2 mt-8">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mt-4 text-center">
+    <p>Copyright © 2024 - All right reserved by <span class="font-bold text-red-500 border-b-2 border-red-600">Urbi Debnath</span></p>
+  </div>
+</footer>
 </body>
 </html>
